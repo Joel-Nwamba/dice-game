@@ -1,0 +1,59 @@
+html, body { 
+    --color-1: #a8e6cf;
+    --color-2: #dcedc1; 
+    --color-3: #ffd3b6; 
+    --color-4: #ffaaa5; 
+    --color-5: #ff8b94;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 50px;
+    background-image: linear-gradient(135deg, var(--color-1) , var(--color-2));
+    height: 100vh;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+}
+
+#players {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    background-color: #ffaaa5;
+    border-radius: 15px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 40px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#rollBtn {
+    background-color: #ff8b94;
+}
+
+#resetBtn {
+    background-color: #ffaaa5; 
+}
