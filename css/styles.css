@@ -48,6 +48,7 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 10px;
+    text-align: center;
 }
 
 #rollBtn {
@@ -55,5 +56,6 @@ button {
 }
 
 #resetBtn {
-    background-color: #ffaaa5; 
+    background-color: #ffaaa5;
+    display: none; 
 }
